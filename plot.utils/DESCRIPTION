@@ -1,6 +1,6 @@
 Package: plot.utils
 Title: Common plot utilities. 
-Version: 1.0.0.0000
+Version: 1.2.0.0000
 Authors@R: 
     person(given = "Steve",
            family = "Smith",

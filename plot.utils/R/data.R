@@ -1,6 +1,8 @@
 #' PGDx color scheme
 #'
 #' @source Personal Genome Diagnostics (www.pgdx.com) marketing materials colors sheet
+#' @docType package
+#' @name pgdx.colors
 #' @format A named character vector and also individual string objects for each color:
 #' \describe{
 #'  \item{pgdx.cyan}{"#27aae1"}
