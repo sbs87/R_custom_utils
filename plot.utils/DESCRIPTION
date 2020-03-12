@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Steve",
            family = "Smith",
            role = c("aut", "cre"),
-           email = "ssmith@pgdx.com",
+           email = "sbs@stevenbsmith.net",
            comment = c(ORCID = "0000-0003-2799-6621"))
 Description: Includes common utilities for plots, including default plot layouts, color schemes and function to write plot as png.
 License: Common
