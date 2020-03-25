@@ -199,3 +199,4 @@ Cheatsheet:
 http://rmarkdown.rstudio.com>
 # TODO
 * mkdir the results dir if it doesn't exist
+* make ggplot a dependency for plot.utils?
