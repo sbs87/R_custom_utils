@@ -41,6 +41,11 @@ Process on a remote server
 ### SET UP ENVIORNMENT
 Load libraries and set global variables
 ```{r setup, eval=F}
+#timestamp start
+timestamp()
+
+# clear previous enviornment
+rm(list = ls())
 
 ##------------------------------------------
 ## LIBRARIES
@@ -50,15 +55,19 @@ library(tidyverse)
 library(plyr)
 library(reshape2)
 library(plot.utils)
+library(utils)
 ##------------------------------------------
 
 ##------------------------------------------
 # GLOBAL VARIABLES
 ##------------------------------------------
-working_dir<-"/Users/stevensmith/Projects/" # don't forget trailing /
-results_dir<-paste0(working_dir,"results") # assumes diretory exists
-input_data1<-paste0(working_dir,"data/","data1.txt") 
-input_data2<-paste0(working_dir,"data/","data2.txt") 
+user_name<-Sys.info()["user"]
+working_dir<-paste0("/Users/",user_name,"/Projects/<NAME>/") # don't forget trailing /
+results_dir<-paste0(working_dir,"results/") # assumes diretory exists
+data_dir<-paste0(working_dir,"data/") # assumes diretory exists
+input_data1<-paste0(data_dir,"data1.txt") 
+input_data2<-paste0(data_dir,"data2.txt") 
+
 ##------------------------------------------
 
 ```
